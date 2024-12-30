@@ -3,10 +3,7 @@ import requests
 from os import system
 from platform import system as os_check
 
-def clear_screen():
-    system('cls' if os_check() == 'Windows' else 'clear')
-    
-clear_screen()
+system('cls' if os_check() == 'Windows' else 'clear')
 
 def extract_package_name(url):
     if match := re.search(r"https://cafebazaar\.ir/app/(?:\?id=)?([\w.-]+)", url):
