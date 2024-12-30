@@ -29,12 +29,14 @@ pip install requests
 ## Example
 
 ```bash
-Enter app URL: https://cafebazaar.ir/app/cab.snapp.passenger
-
-App Name: اسنپ 
-Description: اسنپ! سامانه هوشمند حمل‌ونقل
-...
-Download link: https://arvancdn.cafebazaar.ir/apks/516772011370.apk?hash=dbde8cdf9284a910f39890728d2da148&expires=1693481295&a=.apk
+App Name: اسنپ | Snapp سامانه هوشمند حمل و نقل
+Average Rate: 4.7
+Category: رفت و آمد
+Install Count Range: ۴۳،۰۰۰،۰۰۰+
+Last Updated: N/A
+File size: 64.43 MB
+Version: 286
+Download link: https://arvancdn.cafebazaar.ir/arvan/apks/300341999278.apk?hash=d8f89cd6f7cb9c162060ac46e705b479&expires=1735806057&a=.apk
 ```
 
 ## License
