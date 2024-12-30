@@ -26,7 +26,7 @@ pip install requests
 2. Enter Cafe Bazaar app URL when prompted
 3. App information and download link will be printed
 
-## For Tmpermonkey you can use 'Cafe Bazaar Downloader.js'
+__For Tmpermonkey you can use 'Cafe Bazaar Downloader.js'__
 
 ## Example
 
