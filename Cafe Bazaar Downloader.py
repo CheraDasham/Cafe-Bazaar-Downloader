@@ -38,7 +38,7 @@ def handle_response(data):
 
 if __name__ == "__main__":
     try:
-        url = input("Enter the current URL: ")
+        url = input("Enter the URL: ")
         package_name = extract_package_name(url)
         app_name, average_rate, category, install_count_range, last_updated = get_app_info(package_name)
 
