@@ -29,14 +29,15 @@ pip install requests
 ## Example
 
 ```bash
-App Name: اسنپ | Snapp سامانه هوشمند حمل و نقل
-Average Rate: 4.7
-Category: رفت و آمد
-Install Count Range: ۴۳،۰۰۰،۰۰۰+
+Enter the URL: https://cafebazaar.ir/app/cars.simulator.extreme.drift.drag.bugatti.divo
+App Name: رانندگی با سوپرکار باگاتی دیوو ایکس
+Average Rate: 2.4
+Category: رانندگی
+Install Count Range: ۵۰،۰۰۰+
 Last Updated: N/A
-File size: 64.43 MB
-Version: 286
-Download link: https://arvancdn.cafebazaar.ir/arvan/apks/300341999278.apk?hash=d8f89cd6f7cb9c162060ac46e705b479&expires=1735806057&a=.apk
+File size: 106.24 MB
+Version: 23
+Download link: https://arvancdn.cafebazaar.ir/arvan/apks/630637820407.apk?hash=801d135bbcfad74c763bcca64f7adfb9&expires=1735806147&a=.apk
 ```
 
 ## License
