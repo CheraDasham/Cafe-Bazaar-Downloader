@@ -1,10 +1,17 @@
 import re
 import requests
+from os import system
+from platform import system as os_check
 
 def extract_package_name(url):
     if match := re.search(r"https://cafebazaar\.ir/app/(?:\?id=)?([\w.-]+)", url):
         return match.group(1)
     raise ValueError("Invalid URL format")
+
+def clear_screen():
+    system('cls' if os_check() == 'Windows' else 'clear')
+    
+clear_screen()
 
 def get_app_info(package_name):
     url = 'https://api.cafebazaar.ir/rest-v1/process/AppDetailsV2Request'
