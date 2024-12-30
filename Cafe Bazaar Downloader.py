@@ -1,7 +1,7 @@
-import re
-import requests
 from os import system
 from platform import system as os_check
+import re
+import requests
 
 system('cls' if os_check() == 'Windows' else 'clear')
 
@@ -13,7 +13,6 @@ def extract_package_name(url):
 def get_app_info(package_name):
     url = 'https://api.cafebazaar.ir/rest-v1/process/AppDetailsV2Request'
     payload = {"properties": {"androidClientInfo": {"sdkVersion": 22}},"singleRequest": {"appDetailsV2Request": {"packageName": package_name}}}
-    
     response = requests.post(url, json=payload).json().get('singleReply', {}).get('appDetailsV2Reply', {}).get('meta', {})
     return (
         response.get('name', 'N/A'),
