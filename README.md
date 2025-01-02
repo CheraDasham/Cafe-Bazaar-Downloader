@@ -10,7 +10,7 @@ This repository contains the code for a simple script that can be used to downlo
 Before running the script, make sure you have the following:
 
 - Python 3.x installed.
-- Required Python libraries: `re`, `requests`
+- Required Python libraries: `os`, `platform`, `re`, `requests`
 
 You can install the required libraries using:
 
